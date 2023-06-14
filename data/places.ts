@@ -31,7 +31,18 @@ export const places = [
   {
     id: "marble-palace",
     name: "Marble Palace",
-    description: "$130",
+    description: `The Marble Palace is a palatial nineteenth-century mansion in North Kolkata. It is located at 46, Muktaram Babu Street, Kolkata 700007. It is one of the best-preserved and most elegant houses of nineteenth-century Calcutta. The mansion is famous for its marble walls, floors, and sculptures, from which it derives its name.
+
+    The Marble Palace was built in 1835 by Raja Rajendra Mullick, a wealthy Bengali merchant with a passion for collecting works of art. The house continues to be a residence for his descendants, and the current occupants are the family of Raja Rajendra Mullick Bahadur. Raja Rajendra Mullick was the adopted son of Nilmoni Mullick, who built a Jagannath temple which predates Marble Palace, and still stands within the premises, but is only accessible to members of the family.
+
+    The Marble Palace is a three-storey building with a total floor area of over 10,000 square feet. The exterior of the palace is made of white marble, and it is decorated with Corinthian columns, pilasters, and other classical architectural elements. The interior of the palace is even more lavish, with marble floors, walls, and ceilings, as well as gold-plated fixtures and furniture.
+
+    The Marble Palace is divided into five halls - Reception Hall, Painting Room, Sculpture room, Billiards Room and Thakur Dalan (place of worship). The Reception Hall is the largest hall in the palace, and it is used for hosting guests. The Painting Room is home to a collection of European and Indian paintings, while the Sculpture room houses a collection of marble and bronze sculptures. The Billiards Room is a recreation room, and the Thakur Dalan is a place of worship.
+
+    The Marble Palace also has a number of other amenities, including a library, a kitchen, and a number of servant quarters. The library is home to a collection of books and manuscripts, while the kitchen is used to prepare meals for the residents of the palace. The servant quarters are used to house the staff who work at the palace.
+
+    The Marble Palace is a stunning example of 19th-century architecture. It is a beautiful and luxurious mansion, and it is a must-see for any visitor to Kolkata. The palace is open to the public for a fee, and guided tours are available`,
+
     imageSrc:
       "https://res.cloudinary.com/dcngyw7qp/image/upload/v1685959292/Marble-Palace-Kolkata-1_pvhrrg.jpg",
   },
