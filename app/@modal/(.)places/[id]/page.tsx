@@ -8,11 +8,13 @@ import { X } from "@phosphor-icons/react";
 
 import Image from "next/image";
 import { places } from "@/data/places";
+import { useRouter } from "next/navigation";
 import "@reach/dialog/styles.css";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Place({ params }: { params: { id: string } }) {
+  const router = useRouter();
   const [showDialog, setShowDialog] = useState<boolean>(true);
   const place = places.find((place) => place.id === params.id);
 
@@ -37,7 +39,7 @@ export default function Place({ params }: { params: { id: string } }) {
   };
 
   const redirectToHomePage = () => {
-    window.location.href = "/";
+    router.back();
   };
 
   if (!place) return <div>Place not found</div>;
